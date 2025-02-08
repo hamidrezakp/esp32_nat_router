@@ -1,14 +1,11 @@
-
 import json
 import os
 import gzip
 import re
 import platform
+import env
 
 print("\033[94m╔═╗┌─┐┌─┐   ╔╗╔┌─┐┌┬┐ ╦═╗┌─┐┬ ┬┌┬┐┌─┐┬─┐ _|_\n║╣ └─┐├─┘32─║║║├─┤ │  ╠╦╝│ ││ │ │ ├┤ ├┬┘  |  \n╚═╝└─┘┴     ╝╚╝┴ ┴ ┴  ╩╚═└─┘└─┘ ┴ └─┘┴└─\033[0m\n")
-
-Import("env")
-
 
 os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
 config = env.GetProjectConfig()

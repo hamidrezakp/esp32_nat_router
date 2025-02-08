@@ -1,5 +1,5 @@
 #!/bin/bash
-cd components\\web_server\\www\\html
+cd components\web_server\www\html
 pwd
 echo Site Building Started
 
